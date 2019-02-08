@@ -1,2 +1,0 @@
-# QuizNetworkManagement
-Quiz Network Management
