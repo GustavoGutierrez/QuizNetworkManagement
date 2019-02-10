@@ -1,0 +1,33 @@
+{
+  "name": "Answer",
+  "properties": {
+    "type": {
+      "type": "string",
+      "required": true,
+      "default": "selectionUniq"
+    },
+    "layer": {
+      "type": "number",
+      "required": true,
+      "default": 1
+    },
+    "question": {
+      "type": "string"
+    },
+    "a": {
+      "type": "string"
+    },
+    "b": {
+      "type": "string"
+    },
+    "c": {
+      "type": "string"
+    },
+    "d": {
+      "type": "string"
+    },
+    "correctAnswer": {
+      "type": "string"
+    }
+  }
+}

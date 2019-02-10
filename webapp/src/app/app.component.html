@@ -1,0 +1,41 @@
+<header>
+  <h1>Examen de Gestión de Redes - Normas OSI</h1>
+  <h2>Universidad EAN</h2>
+  <p>De forma aleatoria se le presentarán 10 preguntas las cuales debera responder y enviar para validar su conocimiento sobre OSI.</p>
+
+</header>
+
+<div fxLayout="column" fxLayoutGap="15px" class="container" *ngIf="!completed">
+
+    <div class="name-full-width">
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Cual es su nombre para empezar" [(ngModel)]="name" name="name" (change)="setName()">
+        </mat-form-field>
+      </div>
+
+  <div class="form-questions" fxLayout="column" fxLayoutGap="20px" *ngIf="name">
+    <json-schema-form
+      framework="material-design"
+      [schema]="questionsForm.schema"
+      [form]="questionsForm.form"
+      [(model)]="anwersData"
+      (onSubmit)="onSubmit($event)"
+      [loadExternalAssets]="true"
+      >
+    </json-schema-form>
+  </div>
+</div>
+
+<div fxLayout="column" fxLayoutGap="15px" class="container" *ngIf="completed">
+  <h3 class="text-center">Examen Completado</h3>
+  <p>Gracias <strong>{{ name }}</strong>, <br/>por realizar el examen. Su calificación ha sido de:</p>
+  <p><strong>Puntaje:</strong> {{ calification }} / {{ maxCalification }}.00</p>
+
+  <button type="button" mat-raised-button color="primary" (click)="newTest()">Realizar examen nuevamente</button>
+</div>
+
+
+<footer class="text-center">
+  Todos los derechos reservados - 2019
+</footer>
+<router-outlet></router-outlet>

@@ -1,0 +1,64 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+  background-color: #FAFAFA;
+}
+
+.json-schema-form {
+  label {
+    font-weight: bold;
+    font-size: 1.2em;
+    &.mat-radio-label, &.mat-checkbox-layout {
+      font-weight: normal;
+      font-size: 1em;
+    }
+  }
+
+  div {
+    margin-bottom: 5px;
+    &.mat-checkbox-background, &.mat-checkbox-frame {
+      margin-bottom: 0px;
+    }
+
+    material-button-widget {
+      text-align: right;
+    }
+  }
+
+
+}
+
+.mat-checkbox .mat-checkbox-ripple {
+  margin-bottom: 0px;
+  &.mat-checkbox-frame {
+    margin-bottom: 0px;
+  }
+}
+
+.mat-checkbox {
+  margin-right: 5px;
+}
+
+header {
+  padding: 15px;
+  text-align: center;
+  h1, h2 {
+    margin: 0px;
+  }
+  h2 {
+    color: #3BAC53;
+  }
+}
+
+footer {
+  padding: 15px;
+  text-align: center;
+}
+
+.name-full-width .mat-form-field {
+  width: 100%;
+  font-size: 2em;
+  color: #3bac53;
+}
