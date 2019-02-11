@@ -1,0 +1,14 @@
+﻿Type;ReferenceLayer;Question;A;B;C;D;CorrectAnswer
+selectionUniq;1;¿Qué dos caracteríusticas forman parte de TCP?;Fiable;Sin conexión;No controla el flujo;Reénvia lo que no se haya recibido.;A
+selectionUniq;1;¿Qué número de puerto es usado por HTTP?;23;80;53;110;B
+selectionUniq;1;¿Qué número de purto es utilizado con SMTP?;20;23;25;143;C
+selectionUniq;1;En la cpa de trasporte, ¿cuál de estos controles se utiliza para impedir que un host transmisor sobrecarge los búferes de un host receptor?;Mejor refuerzo.;Encriptación;Control de flujo.;Prevención de la congestión;C
+selectionUniq;1;Los sistemas finales utilizan números de puerto para seleccionar la aplicación adecuada. ¿Cuál es el número de puerto mínimo que el sistema host puede asignar dinámicamente?;1;128;256;1024;D
+multiSelect;1;Durante la transferencia de datos, ¿de qué es responsable el host receptor? (Seleccione las dos mejores respuestas.);Encapsulación;Acuse de recibido.;Ancho de banda.;Reensamble;B,D
+selectionUniq;1;¿Por qué TCP utiliza un número de secuencia en la cabecera?;Para reensamblar los segmentos en datos.;Para identificar el protocolo de capa de aplicación.;Para indicar el número del siguiente byte esperado.;Para mostrar el número máximo de bytes permitidos durante una sesión.;A
+selectionUniq;1;¿Cuál de estos términos determina la cantidad de datos que un host emisor que ejecuta TCP/IP puede transmitir antes de poder recibir un acuse de recibo?;Tamaño de segmento.;Velocidad de transmisión.;Ancho de banda.;Tamaño de la ventana.;D
+selectionUniq;1;¿Cuál es el propósito de los números de puerto TCP/UDP?;Indicar el inicio de un protocolo de enlace de tres vías.;Reensamblar los segmentos en el orden correcto.;Identificar el número de paquetes de datos que se pueden enviar sin acuse de recibo.;Rastrear las diferentes conversaciones que cruzan la red al mismo tiempo.;D
+selectionUniq;1;¿Cuál es el número de puerto DNS predeterminado?;1025;53;110;143;B
+selectionUniq;1;¿Cuál es el número de protocolo para UDP?;1;3;6;17;D
+multiSelect;2;¿Qué direcciones IP son direcciones de red?;192.168.12.64 /26;198.18.12.16 /28;209.165.200.254 /27;64.104.3.7 /28;A,B
+selectionUniq;2;Un administrador de redes está construyendo una red para una pequeña empresa que tiene 22 hosts. El ISP sólo ha asignado una dirección IP enrutable de Internet. ¿Qué bloque de direcciones IP puede utilizar el administrador para direccionar la red?;10.11.12.16 /28;172.31.255.128 /27;192.168.1.0 /28;209.165.202.128 /27;B
