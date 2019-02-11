@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class QuestionsService {
-  private API_URL = "http://localhost:3000/api/Answers"
+  private API_URL = "/api/Answers"
 
   constructor(private _http: HttpClient) { }
 
